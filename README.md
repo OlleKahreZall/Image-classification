@@ -7,7 +7,7 @@ The accuracy of my own algorithm on the data is 99.7%  and with the CNN, the acc
 
 ## Data preprocessing
 
-Each image is looks almost like the image below (train_0010), but each of them is unique. Even though if two images share the same numbers, both can have different noisy patterns in the images and sizes on the numbers. So the goal is to construct a classifier that is adjusted for all the data.
+Each image is looks almost like the image below (train_0010), but every image is unique. Even though if two images share the same numbers, both can have different noisy patterns in the images and different sizes on the numbers. So the goal is to construct a classifier that is adjusted for all the data.
 
 To be able to classify each image, I have preprocessed the images in the following way:
 
