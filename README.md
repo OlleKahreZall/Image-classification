@@ -29,7 +29,7 @@ To be able to classify each image, I have preprocessed the images in the followi
   <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/contours_train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-* Finally, remove all unnecessary contours (in this case it is the object with red color, since its area is to small to be considered as a number) and segment the numbers in the image:
+* Finally, remove all unnecessary contours (in this case it is the object with red color, since its area is too small to be considered a number) and segment the numbers in the image:
 
 <p align="center">
   <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/segmentation_train_0010.png?raw=true" alt="Sublime's custom image"/>
