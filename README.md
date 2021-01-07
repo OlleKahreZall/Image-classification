@@ -23,13 +23,13 @@ To be able to classify each image, I have preprocessed the images in the followi
   <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/preprocessed_train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-* After this, the contours of the image is found: 
+* After that, find the contours in the image:
 
 <p align="center">
   <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/contours_train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-* As seen in the image above, four different contours are found, while it should be only three. A solution to this is only to include areas of the contours that are larger than a specific threshold. In this case, the red contour is not considered to be a number since its area is to small. Segmenting train_0010 results in the following:
+* Finally, remove all unnecessary contours (in this case it is the object with red color, since its area is to small to be considered as a number) and segment the numbers in the image:
 
 <p align="center">
   <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/segmentation_train_0010.png?raw=true" alt="Sublime's custom image"/>
