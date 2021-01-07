@@ -34,4 +34,4 @@ As seen in the image above, four different contours are found, while it should b
 This process is done for evey image in the training dataset. 
 
 ## Classification
-The process of building my classifier was done by trial and error; a time consuming, but rewarding in this case, procedure. The idea is to find the specific features 
+The process of building my classifier was done by trial and error; a time consuming, but rewarding in this case, procedure. The idea is to find the specific features  
