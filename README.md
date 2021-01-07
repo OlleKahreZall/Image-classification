@@ -43,7 +43,7 @@ The process of building my classifier was done by trial and error; a time consum
 The output of both classifiers of train_0010 results in:
 
 <p align="center">
-  <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/classified_train_0010.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/classified_train__0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 
