@@ -38,5 +38,12 @@ To be able to classify each image, I have preprocessed the images in the followi
 This process is done for evey image in the training dataset. 
 
 ## Classification
-The process of building my classifier was done by trial and error; a time consuming, but rewarding in this case, procedure. The idea is to find the specific features for each number. In this case, specific arrays that contain only black or white pixels where used to identify 0, 1 and 2. In the CNN, however, this was done very easily by only choosing one hidden layer with relu as activation function. As stated before, it can probably handle new images even better than my algorithm. The machine won again!
+The process of building my classifier was done by trial and error; a time consuming, but rewarding in this case, procedure. The idea is to find the specific features for each number. In this case, specific arrays that contain only black or white pixels where used to identify 0, 1 and 2. In the CNN, however, this was done very easily by only choosing one hidden layer with relu as activation function. Also, it can probably handle new images even better than my algorithm. The machine won again!
+
+The output of both classifiers of train_0010 results in:
+
+<p align="center">
+  <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/classified_train_0010.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
 
