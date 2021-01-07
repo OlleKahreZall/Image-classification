@@ -7,14 +7,25 @@ The accuracy of my own algorithm on the data is 99.7%  and with the CNN, the acc
 
 ## The workflow
 
-Each image is looks almost like the figure below, but each of them is unique. Even though if two images share the same numbers, both can have different noisy patterns in the images and sizes on the numbers. So the goal is to construct a classifier that is adjust for all the data.
+Each image is looks almost like the image below (train_0010), but each of them is unique. Even though if two images share the same numbers, both can have different noisy patterns in the images and sizes on the numbers. So the goal is to construct a classifier that is adjusted for all the data.
 
-To be able to classify each image, I have preprocessed image in the following way:
+To be able to classify each image, I have preprocessed the images in the following way:
 
-* An image like the one is received in the script
+* An image like train_0010 is received:
 
 <p align="center">
   <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
+* The next step is to remove all the noise in the image and binarize it:
+
+<p align="center">
+  <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/preprocessed_train-0010.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+* After this, the contours of the image is found: 
+
+<p align="center">
+  <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/contours_train-0010.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
