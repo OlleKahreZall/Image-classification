@@ -7,6 +7,7 @@ The accuracy of my own algorithm on the data is 99.7%  and with the CNN, the acc
 
 ## The workflow
 
+Each image is looks almost like the figure below, but each of them is unique. Even though if two images share the same number, both can have different noisy patterns and sizes on the numbers. 
 
 <p align="center">
   <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/train_0010.png?raw=true" alt="Sublime's custom image"/>
