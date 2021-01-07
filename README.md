@@ -7,8 +7,14 @@ The accuracy of my own algorithm on the data is 99.7%  and with the CNN, the acc
 
 ## The workflow
 
-Each image is looks almost like the figure below, but each of them is unique. Even though if two images share the same number, both can have different noisy patterns and sizes on the numbers. 
+Each image is looks almost like the figure below, but each of them is unique. Even though if two images share the same numbers, both can have different noisy patterns in the images and sizes on the numbers. So the goal is to construct a classifier that is adjust for all the data.
+
+To be able to classify each image, I have preprocessed image in the following way:
+
+* An image like the one is received in the script
 
 <p align="center">
   <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
+
+
