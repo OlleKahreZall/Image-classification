@@ -20,16 +20,20 @@ To be able to classify each image, I have preprocessed the images in the followi
 * The next step is to remove all the noise in the image and binarize it:
 
 <p align="center">
-  <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/preprocessed_train-0010.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/preprocessed_train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 * After this, the contours of the image is found: 
 
 <p align="center">
-  <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/contours_train-0010.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/contours_train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-As seen in the image above, four different contours are found, while it should be only three. A solution to this is only to include areas of the contours that are larger than a specific threshold. In this case, the red contour is not considered to be a number since its area is to small.
+* As seen in the image above, four different contours are found, while it should be only three. A solution to this is only to include areas of the contours that are larger than a specific threshold. In this case, the red contour is not considered to be a number since its area is to small. Segmenting train_0010 results in the following:
+
+<p align="center">
+  <img src="https://github.com/OlleKahreZall/Classifying-CAPTHA-images---with-and-without-neural-networks/blob/main/Images/segmentation_train_0010.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 This process is done for evey image in the training dataset. 
 
