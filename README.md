@@ -31,5 +31,7 @@ To be able to classify each image, I have preprocessed the images in the followi
 
 As seen in the image above, four different contours are found, while it should be only three. A solution to this is only to include areas of the contours that are larger than a specific threshold. In this case, the red contour is not considered to be a number since its area is to small.
 
+This process is done for evey image in the training dataset. 
+
 ## Classification
-Each image is 
+The process of building my classifier was done by trial and error; a time consuming, but rewarding in this case, procedure. The idea is to find the specific features 
