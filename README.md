@@ -36,10 +36,7 @@ To be able to classify each image, I have preprocessed the images in the followi
 This process is done for evey image in the training dataset. 
 
 ## Classification
-The process of building my classifier was done by trial and error; a time consuming, but rewarding, procedure. In this case, specific arrays that contain only black or white pixels where used to identify 0, 1 and 2. Searching for the specific arrays to identify the numbers took some time, because of the difficulty of having the model as generalizable as possible.
-
-
-. In the CNN, however, classifying the numbers was done very easily by only choosing one hidden layer with relu as activation function. Also, it can probably handle new images even better than my algorithm as stated before... 
+The process of building my own classifier was done by trial and error; a time consuming, but rewarding in this case, procedure. Specific arrays that contain only black or white pixels where used to identify 0, 1 and 2 and searching for these specific arrays to identify the numbers took some time, because of the difficulty of having the model as generalizable as possible. Classifying the numbers with the CNN, however, was done very easily by only choosing one hidden layer with relu as activation function. Also, it can probably handle new images even better than my algorithm as stated before... 
 
 The machine won again!
 
