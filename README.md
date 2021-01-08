@@ -13,25 +13,25 @@ To be able to classify each image, I have preprocessed the images in the followi
 * An image like train_0010 is received:
 
 <p align="center">
-  <img src="https://github.com/OlleKahreZall/Portfolio/tree/main/Images/train_0010.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/OlleKahreZall/Portfolio/blob/main/Images/train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 * The next step is to remove all the noise in the image and binarize it:
 
 <p align="center">
-  <img src="https://github.com/OlleKahreZall/Portfolio/tree/main/Images/preprocessed_train_0010.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/OlleKahreZall/Portfolio/blob/main/Images/preprocessed_train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 * After that, find the contours in the image:
 
 <p align="center">
-  <img src="https://github.com/OlleKahreZall/Portfolio/tree/main/Images/contours__train_0010.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/OlleKahreZall/Portfolio/blob/main/Images/contours__train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 * Finally, remove all unnecessary contours (in this case it is the object with red color, since its area is too small to be considered a number) and segment the numbers in the image:
 
 <p align="center">
-  <img src="https://github.com/OlleKahreZall/Portfolio/tree/main/Images/segmentation_train_0010.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/OlleKahreZall/Portfolio/blob/main/Images/segmentation_train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 This process is done for evey image in the training dataset. 
@@ -45,7 +45,7 @@ The machine won again!
 The output of both classifiers of train_0010 results in:
 
 <p align="center">
-  <img src="https://github.com/OlleKahreZall/Portfolio/tree/main/Images/classified_train_0010.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/OlleKahreZall/Portfolio/blob/main/Images/classified_train_0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 
