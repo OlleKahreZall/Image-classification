@@ -1,7 +1,7 @@
 # Classifying CAPTHA images - with and without a convolutional neural network
 In this project, the goal was to classifify the numbers 0, 1 and 2 in CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) images. In total, the dataset consists of 1200 images and the dataset itself was given in an image analysis course at Uppsala University. I solved this task with two different classifiers: partly with an algorithm I built myself and, partly with a custom deisgned shallow convolutional neural network (CNN) using the library Keras.
 
-The accuracy of my own algorithm on the data is 99.7% and with the CNN, the accuracy score on the training and validation images is 99.95% and 100%, respectively. The former is, though, faster than the latter; it took 1.2 seconds for my algorithm to finish and 7.4 seconds for the CNN. My algorithm may be a little bit faster, but the CNN, however, will be a more generalizable model than my algorithm and for this reason &#8212; a better classifier. In addition, constructing the algorithm took much longer than designing the CNN...
+The accuracy of my own algorithm on the data is 99.7% and with the CNN, the accuracy score on the training and validation images is 99.95% and 100%, respectively. The former is, though, faster than the latter; it took 1.2 seconds for my algorithm to finish and 7.4 seconds for the CNN. My algorithm may be a little bit faster, but the CNN, however, will be a more generalizable model than my algorithm and &mdash; for this reason &#8212; a better classifier. In addition, constructing the algorithm took much longer than designing the CNN...
 
 ## Data preprocessing
 
