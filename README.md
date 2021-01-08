@@ -25,7 +25,7 @@ To be able to classify each image, I have preprocessed the images in the followi
 * After that, find the contours in the image:
 
 <p align="center">
-  <img src="https://github.com/OlleKahreZall/Portfolio/blob/main/Images/contours__train_0010.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/OlleKahreZall/Portfolio/blob/main/Images/contours_train__0010.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 * Finally, remove all unnecessary contours (in this case it is the object with red color, since its area is too small to be considered a number) and segment the numbers in the image:
